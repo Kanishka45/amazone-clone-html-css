@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    font-style: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: rgb(21, 20, 20);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("amazon-l.png") ;
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    
+}
+.border:hover{
+    border: 1.5px solid white
+
+}
+.a1{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.a2{
+    font-size: 1rem;
+    margin-left: 3px;
+
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width:50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border:none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color:#febd68 ;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color:black
+}
+.nav-search:hover{
+    border: 2px solid orange
+}
+span{
+    font-size: 0.7rem;
+    
+}
+.nav-sec{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart i{
+    font-size: 35px;
+    
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 658;
+
+}
+.pannel{
+    background-color:#222f3d;
+    font-size: 20px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.pannel-all{
+    display: flex;
+    justify-items: left;
+}
+.pannel-ops p{
+    display: inline;
+    margin-left: 10px;
+}
+.pannel-ops{
+    font-size: 0.85rem;
+    width: 70%;
+}
+.pannel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+
+}
+.hero-sec{
+    background-image: url("IMG1.jpg");
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end ;
+}
+.hero-msg{
+    background-color: white;
+    color:black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+.hero-msg a{
+    color:#007185;
+}
+
